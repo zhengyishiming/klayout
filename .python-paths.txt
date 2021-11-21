@@ -1,0 +1,9 @@
+# Builds the Python paths.
+# KLayout will load the paths listed in this file into sys.path
+# unless $KLAYOUT_PYTHONHOME ist set.
+# Use KLayout EXPRESSIONS syntax to specify a list of file paths.
+[
+  combine(inst_path, 'lib/python3.8'),
+  combine(inst_path, 'lib/python3.8/lib-dynload'),
+  combine(inst_path, 'lib/python3.8/site-packages')
+]

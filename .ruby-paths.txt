@@ -1,0 +1,6 @@
+# Builds the Ruby paths.
+# KLayout will load the paths listed in this file into $0
+# Use KLayout EXPRESSIONS syntax to specify a list of file paths.
+[
+
+]
